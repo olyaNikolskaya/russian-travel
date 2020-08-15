@@ -1,0 +1,4 @@
+.place__main-content {
+    display: flex;
+    flex-wrap: wrap;
+}

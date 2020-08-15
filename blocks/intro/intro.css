@@ -1,0 +1,25 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+@import url(./__span-accent/intro__span-accent.css);
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+    .intro {
+        padding: 0 24px;
+    }
+}
+
+@media (min-width: 1008px) {
+    .intro {
+        padding: 0;
+    }
+}

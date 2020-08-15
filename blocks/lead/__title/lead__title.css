@@ -1,0 +1,14 @@
+.lead__title {
+    margin: 0;
+    max-width: 720px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .lead__title {
+        font-size: 96px;
+        line-height: 1.04;
+    }
+}

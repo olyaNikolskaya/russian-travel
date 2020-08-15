@@ -1,0 +1,16 @@
+.cover__background {
+    background-image: url('../images/cover-baykal-by-train.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 62%;
+    position: absolute;
+    max-width: 1184px;
+    max-height: 740px;
+    opacity: 0.8;
+}
+
+.cover__background:hover {
+    opacity: 0.3;
+}
