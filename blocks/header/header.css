@@ -1,12 +1,25 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__langs/header__langs.css);
 
 .header {
     display: flex;
     position: relative;
     padding-top: 16px;
-    margin: 0 auto;
-    width: 90%;
+    margin: 0 16px;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding-top: 28px;
+        margin: 0 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        margin: 0 48px;
+    }
 }

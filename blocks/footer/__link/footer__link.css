@@ -8,11 +8,15 @@
     text-decoration: none;
 }
 
+footer__link:hover {
+    opacity: 0.8;
+}
+
 @media (min-width: 768px) {
     .footer__link {
         font-size: 16px;
         line-height: 1.12;
-        padding-right: 18px;
+        margin-right: 18px;
         margin-bottom: 0;
     }
 }

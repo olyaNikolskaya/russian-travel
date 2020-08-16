@@ -1,8 +1,13 @@
 .place__image {
     width: 100%;
-    min-height: 320px;
-    min-width: 320px;
+    max-height: 320px;
+    max-width: 320px;
     padding-top: 32px;
+}
+@media (min-width: 336px) {
+    .place__image {
+        margin-left: 16px; 
+    }
 }
 
 @media (min-width: 768px) {
@@ -10,6 +15,7 @@
         max-height: 340px; 
         max-width: 340px;
         padding-top: 48px;
+        margin-left: 0;
     }
 }
 

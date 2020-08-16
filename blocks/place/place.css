@@ -13,11 +13,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     padding-top: 48px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 @media (min-width: 768px) {
     .place {
+        margin: 0 auto;
         padding-top: 72px;
     }  
 }
