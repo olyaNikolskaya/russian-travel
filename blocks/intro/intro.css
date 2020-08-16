@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 984px;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -21,5 +20,17 @@
 @media (min-width: 1008px) {
     .intro {
         padding: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .intro {
+        max-width: 984px;
     }
 }

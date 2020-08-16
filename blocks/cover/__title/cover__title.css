@@ -8,6 +8,7 @@
     margin: 0 auto;
     color: #FFFFFF;
     max-width: 288px;
+    z-index: 2;
 }
 
 @media (min-width: 768px) {

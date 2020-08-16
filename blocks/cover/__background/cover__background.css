@@ -1,6 +1,8 @@
 .cover__background {
-    opacity: 0.3;
-    background-color: #2A2C2F;
+    background-image: url('../../../images/cover-baykal-by-train.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display:  flex;
     flex-direction: column;
     position: relative;
@@ -13,7 +15,19 @@
     min-height: 200px;
 }
 
-.cover__background:hover {
+.cover__background:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+    z-index: 1;
+  }
+
+.cover__background:hover:after {
     opacity: 0.8;
 }
 
@@ -36,6 +50,6 @@
 @media (min-width: 1280px) {
     .cover__background {
         max-width: 1184px;
-        max-height: 740px;
+        min-height: 740px;
     }
 }
