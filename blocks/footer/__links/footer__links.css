@@ -6,10 +6,6 @@
     margin: 0;
 }
 
-.footer__links:hover {
-    opacity: 0.8;
-}
-
 @media (min-width: 768px) {
     .footer__links {
         flex-direction: row;
